@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  background-color: blue;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+.btn {
+  width: 177px;
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.day-box {
+  background-color: blue;
+  color: white;
+}
